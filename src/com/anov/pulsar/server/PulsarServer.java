@@ -29,7 +29,7 @@ public class PulsarServer {
 		
 	public static void main(String[] args){
 		if(args.length != 2){
-			System.err.println("Wrong number of arguments");
+			System.err.println("Wrong number of args");
 			System.exit(1);
 		}
 		try{

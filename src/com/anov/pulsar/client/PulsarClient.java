@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class PulsarClient {
 	
 	private static final long DEFAULT_PERIOD = 60*60;//default period in s
-	private static final int SOCKET_TIMEOUT = 60*1000;//default socket timeout in ms
+	private static final int SOCKET_TIMEOUT = 30*1000;//default socket timeout in ms
 	
 	private ScheduledExecutorService scheduledEcexutor;
 	private Future<?> future;

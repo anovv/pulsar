@@ -4,7 +4,7 @@ public interface Callback {
 	
 	public void onRequest();
 	
-	public void onMessage(String message);
+	public void onMessage(String msg);
 	
 	public void onServerUnavailable();
 	
